@@ -30,9 +30,19 @@ th, td {
    border: 1px solid red;
    padding: 8px;
 }
+/* Center all sections properly */
+section {
+   width: 80%;
+   margin: 20px auto;
+   text-align: center;
+}
 
-/* Fix lists alignment */
 ul, ol {
    text-align: left;
    display: inline-block;
+}
+
+/* Add spacing between items */
+li {
+   margin-bottom: 5px;
 }
